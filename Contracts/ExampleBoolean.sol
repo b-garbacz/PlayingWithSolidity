@@ -2,7 +2,7 @@
 pragma solidity ^0.8.7;
 
 contract ExampleBoolean{
-    bool public myBool;
+    bool public myBool; //false is default
 
 
     function setMyBool(bool _myBool)public{
